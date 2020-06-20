@@ -25,3 +25,7 @@ bundle exec rake app:update:bin
 bin/rails db:create
 bin/rails db:migrate
 exit
+gem update
+exit
+bundle update
+exit
