@@ -2,5 +2,5 @@
 cd "$(dirname "$0")"/..
 
 docker-compose restart
-APP=rails62_web_1
+APP=rails600rc1_sample_web_1
 docker attach $APP

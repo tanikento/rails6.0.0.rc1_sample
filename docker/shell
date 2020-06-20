@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 cd "$(dirname "$0")"/..
 
-docker exec -it rails62_web_1 bash
+docker exec -it rails600rc1_sample_web_1 bash

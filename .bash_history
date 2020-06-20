@@ -18,3 +18,10 @@ rails g controller Home index
 exit
 yarn add bootstrap@4.3.1 jquery popper.js
 exit
+bin/rails db:create
+sudo bin/rails db:create
+bin/rails db:create
+bundle exec rake app:update:bin
+bin/rails db:create
+bin/rails db:migrate
+exit
